@@ -21,7 +21,8 @@ public class CalculatorServiceTest {
         Assert.assertEquals(expected,result);
     }
 
-    @Test
+    @Test(timeout = 2000)
+    //this test will fail if it doesn't ends within 2 seconds
     public void sumAnyNumberTest(){
         int result=CalculatorService.sumAnyNumber(2,7,8,9);
 
