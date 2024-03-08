@@ -39,9 +39,12 @@ public class CalculatorServiceTestJUnit5 {
     //More Annotations
     /*
     *  @DisplayName("Test1") : To give a name to a testcase
-    *  @Disabled : To ignore a test case
+    *  @Disabled/@Ignore : To ignore a test case (we can put this annotation at method level toh voh method nhi chalega or we can put it on class level toh us class ke saare methods nhi chalege)
     *  @Tag
     *  @Nested
     *  @TestFactory
     * */
+
+    //Test suite is used to bundle a few unit test cases and run them together. In JUnit, both @RunWith and @Suite
+    // annotations are used to run the suite tests.
 }
